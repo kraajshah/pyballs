@@ -268,6 +268,7 @@ class App():
         self.namebox = self.name.get_rect(center = (self.width - 50, self.height - 20))
 
         self.controls = self.small_font.render('Control Keys: Arrows A S W D Q E Z C', True, SKY)
+        self.controls = self.small_font.render('Aim to touch green ball and avoid others', True, SKY)
         self.controlbox = self.controls.get_rect(center = (int(self.width/2), 25))
 
         #calls for ball drawing function
